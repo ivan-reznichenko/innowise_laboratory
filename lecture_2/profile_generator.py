@@ -22,7 +22,7 @@ life_stage = generate_profile(current_age)
 user_profile = {
     "name": user_name,
     "age": current_age,
-    "life_stage": life_stage,
+    "stage": life_stage,
     "hobbies": hobbies
 }
 
@@ -30,7 +30,7 @@ print("\n---")
 print("Profile Summary:")
 print(f"Name: {user_profile['name']}")
 print(f"Age: {user_profile['age']}")
-print(f"Life Stage: {user_profile['life_stage']}")
+print(f"Life Stage: {user_profile['stage']}")
 if len(user_profile['hobbies']) == 0:
     print("You didn't mention any hobbies.")
 else:
